@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./luminar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg" style="background-color:#6f42c1;">
+        <div class="container">
+            <!-- container(left side and right side same space),container fluid(little less space than container) -->
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 3 bars button ,data-bs-target(id) connect this id with what has to be inside -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Have any question?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">+91 8086 651 651</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- position change(margin-end auto,ivide end left side aanee so change into right(start) -->
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#"></a>
+                        <!-- nav-link-active(1st open) -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="fa-solid fa-phone"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">+91 8086 651 651</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="fa-regular fa-envelope"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">cotact@luminartechnolab.com</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- another nav -->
+    <nav class="navbar navbar-expand-lg" style="background-color:white;">
+        <div class="container">
+            <!-- container(left side and right side same space),container fluid(little less space than container) -->
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 3 bars button ,data-bs-target(id) connect this id with what has to be inside -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><img src="./image/logo.png" alt=""></a>
+                    </li>
+
+                </ul>
+                <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- position change(margin-end auto,ivide end left side aanee so change into right(start) -->
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#"></a>
+                        <!-- nav-link-active(1st open) -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary-emphasis" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary-emphasis" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary-emphasis" href="#">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary-emphasis" href="#">OUR PLACEMENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary-emphasis" href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary-emphasis" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./image/slide1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+
+                    <h1>Kerala's NO.1 IT Finishing School<br>100% Placement Assistance</h1>
+
+                    <p>We at LUMINAR TECHNOLAB offers best software training and placement in<br>emerging technologies
+                        like BIG DATA Science,Machine Learning PYTHON.<br>Software Testing</p>
+                    <a href="#">
+                        <button id="btn">VIEW COURSES</button></a>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./image/slide1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ">
+        
+                            <h1>Kerala's NO.1 IT Finishing School<br>100% Placement Assistance</h1>
+        
+                            <p>We at LUMINAR TECHNOLAB offers best software training and placement in<br>emerging technologies
+                                like BIG DATA Science,Machine Learning PYTHON.<br>Software Testing</p>
+                                <i class="fa-brands fa-whatsapp fa-3x"></i>
+                            <a href="#">
+                                <button id="btn">VIEW COURSES</button></a>
+                            </div>
+                        </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+</body>
+
+</html>
